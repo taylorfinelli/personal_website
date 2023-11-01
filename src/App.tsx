@@ -11,7 +11,7 @@ function App() {
             <h1 className='subheading-text'>This will tell you a little bit about me.</h1>
           </LeftSection>
           <RightSection>
-            <h1 className='title-text'>I'm Taylor Finelli.</h1>
+            <h1 className='title-text'>🚧 This website is currently under construction 🏗️</h1>
           </RightSection>
         </div>
     </>
