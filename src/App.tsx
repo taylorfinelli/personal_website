@@ -1,19 +1,26 @@
 import React from 'react';
-import './App.css';
-import { LeftSection, RightSection } from './components/leftright';
+import './css/App.css';
+import { LeftSection, RightSection } from './components/LeftRight/leftright';
+import LeftNameIntro from './components/Intro/leftNameIntro'
+import RightNameIntro from './components/Intro/rightNameIntro'
+import SplitParallaxContainer from './components/SplitParallax/splitParallax';
+import About from './components/About/about';
+import StickyElement from './components/StickyElement/stickyElement';
+import IntroSlider from './components/Intro/introSlider';
+import SpaceBetween from './components/SpaceBetween/spaceBetween';
+import Volunteer from './components/ResumeSection/Volunteer/volunteer';
 
 function App() {
   return (
     <>
-        <div className='container'>
-          <LeftSection>
-            <h1 className='title-text'>Hi there 👋 Thanks for stopping by.</h1>
-            <h1 className='subheading-text'>This will tell you a little bit about me.</h1>
-          </LeftSection>
-          <RightSection>
-            <h1 className='title-text'>🚧 This website is currently under construction 🏗️</h1>
-          </RightSection>
+        <IntroSlider />
+        <div className='construction'>
+          this website is currently under construction
         </div>
+        <SpaceBetween size='xxl' />
+        <About />
+        <SpaceBetween size='xxxl' />
+        <Volunteer />
     </>
   );
 }

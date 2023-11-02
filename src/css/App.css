@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('./components/background.gif'); 
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -48,33 +47,37 @@ body {
   }
 }
 
-.title-text-left {
-  color: #ffffff;
-  text-align: left;
-  font-family: 'Martian Mono', monospace; 
-  padding-left: 5%;
-  padding-top: 10%;
-}
-
 .title-text {
-  color: #ffffff;
-  font-family: 'Martian Mono', monospace; 
+  color: #000000;
+  font-family: 'Poppins'; 
+  font-size: 175px;
+  stroke: #000000;
+  margin: 50px;
 }
 
-.subheading-text {
-  color: #ffffff;
-  font-family: 'Martian Mono', monospace; 
-  font-size: larger;
+.construction {
+  color: #ff5100;
+  font-family: 'Poppins'; 
+  font-size: 80px;
+  stroke: #000000;
+  margin: 50px;
+  text-align: center;
+}
+
+.regular-text {
+  color: #000000;
+  font-family: 'Poppins'; 
+  font-size: 25px;
+  stroke: #000000;
+  margin: 50px;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
 }
 
 .container > div {
   flex: 1;
-  padding: 20px;
 }

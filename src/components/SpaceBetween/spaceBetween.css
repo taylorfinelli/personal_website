@@ -1,0 +1,23 @@
+.space-size-s {
+  margin-top: 8px;
+}
+
+.space-size-m {
+  margin-top: 16px;
+}
+
+.space-size-l {
+  margin-top: 32px;
+}
+
+.space-size-xl {
+  margin-top: 64px;
+}
+
+.space-size-xxl {
+  margin-top: 128px;
+}
+
+.space-size-xxxl {
+  margin-top: 256px;
+}
