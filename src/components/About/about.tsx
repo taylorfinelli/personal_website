@@ -1,5 +1,5 @@
 import { LeftSection, RightSection } from '../LeftRight/leftright';
-import './about.css'
+import '/src/css/App.css'
 
 export default function About(){
   return (
