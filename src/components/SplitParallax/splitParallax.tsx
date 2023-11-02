@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import LeftNameIntro from '../Intro/leftNameIntro';
 import RightNameIntro from '../Intro/rightNameIntro';
-import '/Users/taylorfinelli/Desktop/personal_website/src/css/parallax.css'
+import '/src/css/parallax.css'
 
 const SplitParallaxContainer: React.FC = () => {
   const scrollPosition = useRef(0);
