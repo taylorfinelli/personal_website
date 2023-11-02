@@ -1,0 +1,15 @@
+.title-text {
+  color: #000000;
+  font-family: 'Poppins'; 
+  font-size: 175px;
+  stroke: #000000;
+  margin: 50px;
+}
+
+.regular-text {
+  color: #000000;
+  font-family: 'Poppins'; 
+  font-size: 25px;
+  stroke: #000000;
+  margin: 50px;
+}
