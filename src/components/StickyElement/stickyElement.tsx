@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import '/Users/taylorfinelli/Desktop/personal_website/src/css/parallax.css';
+import '/src/css/parallax.css';
 import About from '../About/about'
 import SplitParallaxContainer from '../SplitParallax/splitParallax';
 

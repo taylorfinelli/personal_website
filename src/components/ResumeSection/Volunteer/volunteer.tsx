@@ -1,5 +1,5 @@
 import { LeftSection, RightSection } from '../../LeftRight/leftright'
-import '/Users/taylorfinelli/Desktop/personal_website/src/css/App.css'
+import '/src/css/App.css'
 
 export default function Volunteer(){
   return(
