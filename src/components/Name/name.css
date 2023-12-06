@@ -1,0 +1,9 @@
+.name {
+  font-family: 'Poppins';
+  font-size: 50px;
+  font-weight: 800;
+  color: #E2D9F8;
+  position: fixed;
+  margin-left: 15rem;
+  top: 10rem;
+}

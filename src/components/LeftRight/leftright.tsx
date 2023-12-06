@@ -1,4 +1,5 @@
 import React from 'react';
+import '/src/components/Name/name.css'
 
 function LeftSection(props: any) {
   return (

@@ -3,7 +3,7 @@ import '/src/css/parallax.css';
 import About from '../About/about'
 import SplitParallaxContainer from '../SplitParallax/splitParallax';
 
-const StickyElement: React.FC = (props: any) => {
+export default function StickyElement(props: any) {
   const stickyRef = useRef<HTMLDivElement | null>(null);
 
   const handleScroll = () => {
@@ -36,5 +36,3 @@ const StickyElement: React.FC = (props: any) => {
     </div>
   );
 };
-
-export default StickyElement;

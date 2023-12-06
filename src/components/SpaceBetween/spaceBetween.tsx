@@ -1,4 +1,3 @@
-import React from 'react';
 import './spaceBetween.css'
 
 interface SpaceBetweenProps {
