@@ -4,3 +4,15 @@
   color: #E2D9F8;
   margin-top: 7rem;
 }
+
+@media (max-width: 1000px) {
+  .regular-text {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .regular-text {
+    padding-top: 10px;
+  }
+}
