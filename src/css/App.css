@@ -5,6 +5,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
   cursor: auto
 }
 
@@ -67,13 +69,28 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: relative;
+  margin: 0 auto;
+  width: 1350px;
 }
 
 .container > div {
   flex: 1;
+}
+
+@media (max-width: 1350px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 500px;
+    flex-direction: column;
+  }
 }
 
 .flashlight-container {
