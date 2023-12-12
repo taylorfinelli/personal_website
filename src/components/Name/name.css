@@ -1,14 +1,40 @@
+.block {
+  position: fixed;
+  top: 7rem;
+}
+
+.name, .info-text {
+  margin: 0;
+}
+
 .name {
   font-family: 'Poppins';
   font-size: 65px;
   font-weight: 700;
   color: #E2D9F8;
-  position: fixed;
-  top: 7rem;
 }
 
 @media (max-width: 1200px) {
-  .name {
+  .block {
     position: relative;
+    top: 3rem;
   }
+
+  .info-text {
+    margin-bottom: 12px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px){
+  .name {
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+.info-text {
+  font-family: 'Poppins';
+  font-size: 17px;
+  color: #E2D9F8;
 }

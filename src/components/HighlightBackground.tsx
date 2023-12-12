@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import '/src/css/App.css';
 
 export default function HighlightBackground() {
@@ -7,10 +7,9 @@ export default function HighlightBackground() {
 
   useEffect(() => {
     const handleMouseMove = (event: MouseEvent) => {
-      // Introduce a delay in updating the position to create a trailing effect
       setTimeout(() => {
         setPosition({ x: event.clientX, y: event.clientY });
-      }, 40); // Adjust the delay time (in milliseconds) based on your preference
+      }, 40); // 40ms delay for a smooth effect
     };
 
     document.addEventListener('mousemove', handleMouseMove);

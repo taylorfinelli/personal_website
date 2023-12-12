@@ -1,0 +1,56 @@
+.work-block {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-column-gap: 50px;
+}
+
+.work-desc-block {
+  text-align: left;
+  margin: 0;
+}
+
+.work-location {
+  font-family: 'Poppins';
+  font-size: 17px;
+  color: #E2D9F8;
+  margin: 0;
+}
+
+.work-desc {
+  font-family: 'Poppins';
+  font-size: 15px;
+  color: #E2D9F8;
+  margin: 0;
+}
+
+.job-title {
+  font-family: 'Poppins';
+  font-size: 15px;
+  color: #7B758A;
+  margin: 0;
+}
+
+.work-date {
+  font-family: 'Poppins';
+  font-size: 17px;
+  color: #7B758A;
+  margin: 0;
+}
+
+@media (max-width: 500px){
+  .work-desc, .job-title {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px){
+  .work-date, .work-location {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px){
+  .work-block {
+    margin-right: 2rem;
+  }
+}

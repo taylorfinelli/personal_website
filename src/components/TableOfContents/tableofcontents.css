@@ -1,0 +1,24 @@
+.tos-block {
+  position: fixed;
+  top: 20rem;
+}
+
+.toc-text {
+  font-family: 'Poppins';
+  font-size: 17px;
+  color: #7B758A;
+  margin: 0;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.toc-text:hover {
+  color: #E2D9F8;
+  transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+  .tos-block {
+    z-index: -100;
+  }
+}
