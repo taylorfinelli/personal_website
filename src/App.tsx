@@ -8,7 +8,7 @@ import Work from './components/ResumeSection/Work/Work';
 import SpaceBetween from './components/SpaceBetween/spaceBetween';
 import Projects from './components/ResumeSection/Projects/Projects';
 
-import { useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Headline from './components/Headline/Headline';
 import Socials from './components/Socials/Socials';
 
@@ -17,10 +17,20 @@ export default function App() {
   const experienceRef = useRef(null);
   const projectsRef = useRef(null);
 
+  const [fadeIn, setFadeIn] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setFadeIn(true);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
       <HighlightBackground />
-      <div className='container'>
+      <div className={`container ${fadeIn ? 'fade-in' : 'transparent'}`}>
         <LeftSection>
           <Name />
 

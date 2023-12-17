@@ -12,10 +12,19 @@ body {
   display: flex;
   width: 1350px;
   margin: 0 auto;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .container > div {
   flex: 1;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
 }
 
 @media (max-width: 1500px) {

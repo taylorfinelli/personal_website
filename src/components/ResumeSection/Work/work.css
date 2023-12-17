@@ -32,7 +32,8 @@
   font-size: 16px;
   color: #7B758A;
   margin: 0;
-  line-height: 190%;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .work-date {
