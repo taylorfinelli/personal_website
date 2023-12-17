@@ -2,11 +2,7 @@
   display: grid;
   grid-template-columns: 30% 62.5%;
   grid-column-gap: 50px;
-}
-
-.project-desc-block {
-  text-align: left;
-  margin: 0;
+  margin: 0 0;
 }
 
 .link,
@@ -15,15 +11,13 @@
   font-weight: 400;
   font-size: 17px;
   color: #E2D9F8;
-  margin: 0;
 }
 
 .project-desc {
   font-family: 'Rubik';
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
   color: #E2D9F8;
-  margin: 0;
   line-height: 140%;
 }
 
@@ -41,13 +35,7 @@
 }
 
 @media (max-width: 500px){
-  .project-name {
-    font-size: 15px;
-  }
-  .project-desc {
-    font-size: 14px;
-  }
-  .work-block {
-    margin-right: 2rem;
+  .project-block {
+    width: 90%;
   }
 }

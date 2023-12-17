@@ -2,7 +2,7 @@
   font-family: 'Rubik';
   line-height: 140%;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 16px;
   color: #E2D9F8;
   margin-top: 7rem;
 }
@@ -17,6 +17,5 @@
 @media (max-width: 500px) {
   .about-text {
     margin-top: 3rem;
-    font-size: 14px;
   }
 }
