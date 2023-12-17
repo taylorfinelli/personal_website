@@ -1,0 +1,52 @@
+.socials-block {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 50rem;
+  align-items: left;
+}
+
+.icon-block {
+  display: grid;
+  width: 24px;
+  place-items: left;
+}
+
+@media (max-width: 1200px) {
+  .icon-block {
+    width: 128px;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin: 0;
+    place-items: center;
+  }
+
+  .socials-block {
+    margin: 0;
+    top: 3rem;
+    position: relative;
+    align-items: center;
+  }
+}
+
+.email {
+  cursor: pointer;
+}
+
+.message {
+  cursor: default;
+  opacity: 0;
+  font-family: 'Rubik';
+  font-weight: 300;
+  font-size: 15px;
+  color: #E2D9F8;
+  margin: 0;
+  line-height: 140%;
+  transform: translateY(10%);
+  transition: opacity 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.message.show {
+  opacity: 1;
+  transition: opacity 0s ease-in-out;
+  transform: translateY(0);
+}

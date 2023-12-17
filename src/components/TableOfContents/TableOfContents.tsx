@@ -11,7 +11,7 @@ export default function TableOfContents({ aboutRef, experienceRef, projectsRef }
   };
 
   return (
-    <div className="tos-block">
+    <div className="toc-block">
       <p className='toc-text' onClick={() => scrollToRef(aboutRef)}>ABOUT</p>
       <p className='toc-text' onClick={() => scrollToRef(experienceRef)}>EXPERIENCE</p>
       <p className='toc-text' onClick={() => scrollToRef(projectsRef)}>PROJECTS</p>

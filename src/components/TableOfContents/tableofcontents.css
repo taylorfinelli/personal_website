@@ -1,4 +1,4 @@
-.tos-block {
+.toc-block {
   position: fixed;
   top: 20rem;
 }
@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 1200px) {
-  .tos-block {
+  .toc-block {
     display: none;
   }
 }

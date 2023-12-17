@@ -10,12 +10,13 @@
 @media (max-width: 1000px) {
   .about-text {
     padding-top: 10px;
+    margin-top: 6rem;
   }
 }
 
 @media (max-width: 500px) {
   .about-text {
-    padding-top: 10px;
+    margin-top: 3rem;
     font-size: 14px;
   }
 }

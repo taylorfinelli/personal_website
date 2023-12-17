@@ -10,6 +10,7 @@ import Projects from './components/ResumeSection/Projects/Projects';
 
 import { useRef } from 'react'
 import Headline from './components/Headline/Headline';
+import Socials from './components/Socials/Socials';
 
 export default function App() {
   const aboutRef = useRef(null);
@@ -22,7 +23,10 @@ export default function App() {
       <div className='container'>
         <LeftSection>
           <Name />
+
           <TableOfContents aboutRef={aboutRef} experienceRef={experienceRef} projectsRef={projectsRef}/>
+
+          <Socials />
         </LeftSection>
 
         <RightSection>

@@ -40,15 +40,6 @@ body {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .title-text {
   color: #000000;
   font-family: 'Poppins'; 
@@ -81,19 +72,12 @@ body {
 
 @media (max-width: 1500px) {
   .container {
-    width: 80%;
+    width: 90%;
   }
 }
 
 @media (max-width: 1200px) {
   .container {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 500px) {
-  .container {
-    width: 300px;
     flex-direction: column;
   }
 }
