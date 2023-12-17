@@ -1,15 +1,16 @@
-.work-block {
+.project-block {
   display: grid;
   grid-template-columns: 30% 62.5%;
   grid-column-gap: 50px;
 }
 
-.work-desc-block {
+.project-desc-block {
   text-align: left;
   margin: 0;
 }
 
-.work-location {
+.link,
+.project-name {
   font-family: 'Rubik';
   font-weight: 400;
   font-size: 17px;
@@ -17,7 +18,7 @@
   margin: 0;
 }
 
-.work-desc {
+.project-desc {
   font-family: 'Rubik';
   font-weight: 200;
   font-size: 15px;
@@ -26,30 +27,27 @@
   line-height: 140%;
 }
 
-.job-title {
-  font-family: 'Rubik';
-  font-weight: 200;
-  font-size: 15px;
-  color: #7B758A;
-  margin: 0;
+.link > a {
+  color: #E2D9F8;
+  text-decoration: none;
 }
 
-.work-date {
-  font-family: 'Rubik';
-  font-weight: 400;
-  font-size: 17px;
-  color: #7B758A;
-  margin: 0;
+.link > a:visited {
+  color: #E2D9F8;
+}
+
+.link > a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 500px){
-  .work-desc, .job-title {
+  .project-name {
+    font-size: 15px;
+  }
+  .project-desc {
     font-size: 14px;
   }
   .work-block {
     margin-right: 2rem;
-  }
-  .work-date, .work-location {
-    font-size: 15px;
   }
 }

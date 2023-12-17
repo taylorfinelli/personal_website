@@ -1,18 +1,20 @@
-.regular-text {
-  font-family: 'Poppins';
+.about-text {
+  font-family: 'Rubik';
+  line-height: 140%;
+  font-weight: 200;
   font-size: 17px;
   color: #E2D9F8;
   margin-top: 7rem;
 }
 
 @media (max-width: 1000px) {
-  .regular-text {
+  .about-text {
     padding-top: 10px;
   }
 }
 
 @media (max-width: 500px) {
-  .regular-text {
+  .about-text {
     padding-top: 10px;
     font-size: 14px;
   }

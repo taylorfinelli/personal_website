@@ -1,4 +1,4 @@
-import './spaceBetween.css'
+import '/src/components/SpaceBetween/spaceBetween.css'
 
 interface SpaceBetweenProps {
   size: 's' | 'm' | 'l' | 'xl' | 'xxl' | 'xxxl';

@@ -8,9 +8,8 @@
 }
 
 .name {
-  font-family: 'Poppins';
+  font-family: 'Rubik';
   font-size: 65px;
-  font-weight: 700;
   color: #E2D9F8;
 }
 
@@ -21,7 +20,7 @@
   }
 
   .info-text {
-    margin-bottom: 12px;
+    margin-bottom: 12pt;
     text-align: center;
   }
 }
@@ -34,7 +33,8 @@
 }
 
 .info-text {
-  font-family: 'Poppins';
+  font-family: 'Rubik';
+  font-weight: 200;
   font-size: 17px;
   color: #E2D9F8;
 }

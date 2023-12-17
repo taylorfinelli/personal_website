@@ -4,7 +4,7 @@
 }
 
 .toc-text {
-  font-family: 'Poppins';
+  font-family: 'Rubik';
   font-size: 17px;
   color: #7B758A;
   margin: 0;
@@ -14,11 +14,11 @@
 
 .toc-text:hover {
   color: #E2D9F8;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 @media (max-width: 1200px) {
   .tos-block {
-    z-index: -100;
+    display: none;
   }
 }

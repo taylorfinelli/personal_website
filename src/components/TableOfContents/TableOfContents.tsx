@@ -1,21 +1,20 @@
-import '/src/components/TableOfContents/tableofcontents.css'
-import { useState } from 'react'
+import '/src/components/TableOfContents/tableofcontents.css';
 
-export default function TableOfContents() {
-  const handleScroll = (e: number) => {
-    window.scroll({
-      top: e,
-      behavior: 'smooth',
-    });
+export default function TableOfContents({ aboutRef, experienceRef, projectsRef }) {
+  const scrollToRef = (ref) => {
+    if (ref && ref.current) {
+      window.scrollTo({
+        top: ref.current.offsetTop - 10,
+        behavior: 'smooth',
+      });
+    }
   };
 
   return (
-    <>
-      <div className="tos-block">
-        <p className='toc-text' onClick={() => handleScroll(0)}>ABOUT</p>
-        <p className='toc-text' onClick={() => handleScroll(400)}>EXPERIENCE</p>
-        <p className='toc-text' onClick={() => handleScroll(800)}>EDUCATION</p>
-      </div>
-    </>
-  )
+    <div className="tos-block">
+      <p className='toc-text' onClick={() => scrollToRef(aboutRef)}>ABOUT</p>
+      <p className='toc-text' onClick={() => scrollToRef(experienceRef)}>EXPERIENCE</p>
+      <p className='toc-text' onClick={() => scrollToRef(projectsRef)}>PROJECTS</p>
+    </div>
+  );
 }
