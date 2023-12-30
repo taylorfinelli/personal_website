@@ -2,7 +2,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  top: 50rem;
+  top: 80%;
   align-items: left;
 }
 
@@ -10,6 +10,12 @@
   display: grid;
   width: 24px;
   place-items: left;
+}
+
+@media (max-height: 500px) {
+  .socials-block {
+    top: 400px;
+  }
 }
 
 @media (max-width: 1200px) {
