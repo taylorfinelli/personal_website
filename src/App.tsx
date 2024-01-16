@@ -11,7 +11,7 @@ import Projects from './components/ResumeSection/Projects/Projects';
 import { useState, useEffect, useRef } from 'react'
 import Headline from './components/Headline/Headline';
 import Socials from './components/Socials/Socials';
-import Volunteer from './components/ResumeSection/Volunteer/Volunteer';
+import Volunteer from '/src/components/ResumeSection/Volunteer/Volunteer';
 
 export default function App() {
   const aboutRef = useRef(null);
