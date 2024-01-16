@@ -18,6 +18,19 @@ export default function Work() {
       </div>
 
       <SpaceBetween size='xl' />
+      
+      <div className="work-block">
+        <p className="work-date">AUG 2023 - PRESENT</p>
+        <div className='work-desc-block'>
+          <h1 className="work-location">UNLV College of Engineering</h1>
+          <p className="job-title">Teaching Assistant</p>
+          <p className="work-desc">Provides assistance to professors in computer science courses by tutoring students, grading assignments, and hosting office hours.
+          Evaluates student-written code, discusses algorithms and implementations, and collaborates with other teaching assistants to find ways to best guide students toward success.
+          </p>
+        </div>
+      </div>
+
+      <SpaceBetween size='xl' />
 
       <div className="work-block">
         <p className="work-date">AUG 2021 - MAY 2023</p>

@@ -11,11 +11,13 @@ import Projects from './components/ResumeSection/Projects/Projects';
 import { useState, useEffect, useRef } from 'react'
 import Headline from './components/Headline/Headline';
 import Socials from './components/Socials/Socials';
+import Volunteer from './components/ResumeSection/Volunteer/Volunteer';
 
 export default function App() {
   const aboutRef = useRef(null);
   const experienceRef = useRef(null);
   const projectsRef = useRef(null);
+  const volunteerRef = useRef(null);
 
   const [fadeIn, setFadeIn] = useState(false);
 
@@ -34,7 +36,7 @@ export default function App() {
         <LeftSection>
           <Name />
 
-          <TableOfContents aboutRef={aboutRef} experienceRef={experienceRef} projectsRef={projectsRef}/>
+          <TableOfContents aboutRef={aboutRef} experienceRef={experienceRef} projectsRef={projectsRef} volunteerRef={volunteerRef}/>
 
           <Socials />
         </LeftSection>
@@ -44,14 +46,16 @@ export default function App() {
           <About />
 
           <Headline headlineText='EXPERIENCE' ref={experienceRef} />
-          <SpaceBetween size='xl'/>
+          <SpaceBetween size='xl' />
           <Work />
 
           <Headline headlineText='PROJECTS' ref={projectsRef} />
-          <SpaceBetween size='xl'/>
+          <SpaceBetween size='xl' />
           <Projects />
 
-          <SpaceBetween size='xl'/>
+          <Headline headlineText='VOLUNTEERISM' ref={volunteerRef} />
+          <SpaceBetween size='xl' />
+          <Volunteer />
         </RightSection> 
       </div>
     </>

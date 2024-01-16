@@ -32,6 +32,8 @@ export default function Projects() {
 
       <SpaceBetween size='xl' />
       <p className="project-desc" style={{textAlign: 'center'}}> Check out my GitHub for other trivial projects I did earlier in my CS studies! </p>
+      
+      <SpaceBetween size='xl' />
     </>
   )
 }
