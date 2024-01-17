@@ -12,9 +12,9 @@
   place-items: left;
 }
 
-@media (max-height: 500px) {
+@media (max-height: 525px) {
   .socials-block {
-    top: 400px;
+    top: 420px;
   }
 }
 
