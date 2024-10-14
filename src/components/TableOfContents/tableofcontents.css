@@ -9,7 +9,7 @@
   color: #7B758A;
   margin: 0;
   cursor: pointer;
-  transition: color 0.3s ease, transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .toc-text:hover {

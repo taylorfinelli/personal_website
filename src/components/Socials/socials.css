@@ -12,6 +12,16 @@
   place-items: left;
 }
 
+.icon {
+  color: #7B758A; 
+  transition: all 0.3s ease; 
+}
+
+.icon:hover {
+  color: #E2D9F8; 
+  transform: scale(1.05);
+}
+
 @media (max-height: 525px) {
   .socials-block {
     top: 420px;
