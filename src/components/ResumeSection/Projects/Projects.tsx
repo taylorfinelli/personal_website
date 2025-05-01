@@ -8,7 +8,7 @@ export default function Projects() {
         <p className="project-name">Personal Website</p>
         <div className="project-desc">
           The website you're currently viewing. Portfolio website made with TypeScript and React.
-          Stylized with custom CSS for a unique look and feel, and deployed with Vercel.
+          Stylized with custom CSS for a unique look and feel, deployed with Vercel.
           <br />
           Features an animated background, interactive navigation section, and a responsive layout.
         </div>
