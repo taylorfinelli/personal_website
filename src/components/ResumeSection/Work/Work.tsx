@@ -5,6 +5,30 @@ export default function Work() {
   return (
     <>
       <div className="work-block">
+        <p className="work-date">FEB 2025 - CURRENT</p>
+        <div className="work-desc-block">
+          <h1 className="work-location">Amazon Web Services</h1>
+          <p className="job-title">Software Development Engineer</p>
+          <p className="work-desc">
+            Build internal tools using{" "}
+            <span style={{ fontWeight: 500, color: "#ede6ff" }}>React, TypeScript,</span> and{" "}
+            <span style={{ fontWeight: 500, color: "#ede6ff" }}>Java </span>
+            to empower data engineering teams in generating and delivering{" "}
+            <span style={{ fontWeight: 500, color: "#ede6ff" }}>business-critical </span>
+            reports. Design and maintain{" "}
+            <span style={{ fontWeight: 500, color: "#ede6ff" }}>
+              cloud-native applications
+            </span>{" "}
+            leveraging AWS services such as Lambda, DynamoDB, Glue, and S3, deployed via AWS CDK.
+            Collaborate closely with data engineers to streamline workflows and improve reporting
+            automation, scalability, and reliability.
+          </p>
+        </div>
+      </div>
+
+      <SpaceBetween size="xl" />
+
+      <div className="work-block">
         <p className="work-date">MAY 2024 - AUG 2024</p>
         <div className="work-desc-block">
           <h1 className="work-location">Amazon Web Services</h1>
@@ -26,7 +50,7 @@ export default function Work() {
       <SpaceBetween size="xl" />
 
       <div className="work-block">
-        <p className="work-date">MAR 2024 - CURRENT </p>
+        <p className="work-date">MAR 2024 - JAN 2025</p>
         <div className="work-desc-block">
           <h1 className="work-location">UNLV EMPOWER</h1>
           <p className="job-title">Web Developer</p>
@@ -37,7 +61,7 @@ export default function Work() {
             </span>
             . Migrated from HTML/CSS/JS to a new tech stack consisting of{" "}
             <span style={{ fontWeight: 500, color: "#ede6ff" }}>
-              TypeScript, React, Express, and Amazon DynamoDB
+              TypeScript, React, and Amazon DynamoDB
             </span>
             . Applied current best practices to ensure secure administrator login and data transfer.
           </p>
@@ -74,9 +98,9 @@ export default function Work() {
           <h1 className="work-location">UNLV College of Engineering</h1>
           <p className="job-title">Teaching Assistant</p>
           <p className="work-desc">
-            Provides assistance to professors in computer science courses by tutoring students,
-            grading assignments, and hosting office hours. Evaluates student-written code, discusses
-            algorithms and implementations, and collaborates with other teaching assistants to find
+            Provided assistance to professors in computer science courses by tutoring students,
+            grading assignments, and hosting office hours. Evaluated student-written code, discussed
+            algorithms and implementations, and collaborated with other teaching assistants to find
             ways to best guide students toward success.
           </p>
         </div>

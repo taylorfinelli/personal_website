@@ -8,7 +8,7 @@ export default function Projects() {
         <p className="project-name">Personal Website</p>
         <div className="project-desc">
           The website you're currently viewing. Portfolio website made with TypeScript and React.
-          Stylized with CSS and deployed with Vercel.
+          Stylized with custom CSS for a unique look and feel, and deployed with Vercel.
           <br />
           Features an animated background, interactive navigation section, and a responsive layout.
         </div>
@@ -74,7 +74,7 @@ export default function Projects() {
           Used to calculate the present value and future value of two types of investments: lump sum
           and ordinary annuity.
           <br />
-          Still a work-in-progress.
+          Only keeping this here to remind myself where I started.
           <br />
           Fun fact: I created this because I was too lazy to do the calculations by hand in my
           finance class.

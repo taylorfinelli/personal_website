@@ -5,22 +5,19 @@ export default function About() {
   return (
     <>
       <div className="about-text">
-        Greetings! My name is Taylor Finelli. I'm a senior studying computer science at the
-        University of Nevada, Las Vegas Honors College. I will be graduating this December with a
-        bachelor's of science in computer science.
+        Hi! I'm Taylor Finelli, a full-stack software engineer who loves using code to make life
+        easier.
         <br />
         <br />
-        Computer science has become a passion for me, and I thoroughly enjoy exploring all types of
-        programming languages. My experience spans a variety of languages, from low-level ones such
-        as x86 and RISC-V assembly, to high-level ones like Python, Java, and TypeScript. I've also
-        studied the languages that can fall somewhere in-between, such as C and C++, and even
-        languages not traditionally considered "programming" languages, like R and MATLAB.
+        I'm passionate about building tools that empower others and improve efficiency. My
+        experience spans front-end development with React and TypeScript, back-end services in Java,
+        and cloud infrastructure on AWS, provisioned with the Cloud Development Kit (CDK).
         <br />
         <br />
-        I'm eager to begin a career in software engineering, and even more excited to keep learning
-        about computer science. Keep scrolling to learn a little bit about me while I showcase some
-        of what I've learned so far.
+        Driven by curiosity and a love for solving complex problems, I'm always looking for new ways
+        to create impact through software.
       </div>
+
       <SpaceBetween size="xl" />
     </>
   );
